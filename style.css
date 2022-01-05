@@ -12,7 +12,7 @@ h1 {
 }
 
 
-section {
+.flexble-container {
     display: flex;
 
 }
@@ -45,4 +45,40 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Exprience-area {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Exprience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+#web-dev-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+
+}
+
+#full-stack-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(gray, yellow);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    padding-top: 60px;
+    text-align: center;
 }
